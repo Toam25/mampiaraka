@@ -1,0 +1,57 @@
+.image_cart_profil{
+    height: 190px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valable_person {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 11px;
+    top: 8px;
+  }
+  .actif{
+      background-color: green;
+  }
+  .in_actif{
+    background-color: gray;
+}
+.image_cart_profil>img { 
+        max-width: 100%;
+        max-height: 100%;
+}
+.cart_profil{
+    width: 200px;
+position: relative;
+border-radius: 5px;
+overflow: hidden;
+margin: 7px;
+background: white;
+}
+.heart_for_you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .heart_for_you>img{
+    height: 40px;
+  }
+  .detail_for_me_cart_profil {
+    padding: 0px 6px 6px 6px;
+  }
+  .h1_cart_profil{
+        margin: 0;
+        font-size: 16px;
+  }
+  .few_detail_for_me{
+        margin: 0;
+        font-size: 13px;
+  }
