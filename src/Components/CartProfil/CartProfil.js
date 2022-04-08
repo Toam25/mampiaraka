@@ -1,11 +1,12 @@
 import "./cartprofil.css"
 import heart from '../../Images/heart.svg'
-import  femme from '../../Images/femee.webp'
-function CartProfil () {
+import { BASE_URL } from "../Api"
+function CartProfil ({profil}) {
+    console.log(profil)
     return (
         <div className="cart_profil">
-            <div className="image_cart_profil">
-                    <img src={femme} />
+            <div className="image_cart_profil" style={{backgroundImage: "url("+BASE_URL+"/"+profil.avatar+")"}} >
+                    {/* <img src={femme} /> */}
                     <div className="heart_for_you">
                          <img src={heart} />
                     </div>
@@ -15,8 +16,8 @@ function CartProfil () {
                 
                  
                  <span className="valable_person actif"></span>
-                <h1 className="h1_cart_profil">Harih1991, 19 ans</h1>
-                <p className="few_detail_for_me">Contact me on my whatsapp number +261349089331 ♥ Serious man only/ i'm looking for real love</p>
+                <h1 className="h1_cart_profil">{profil.name}, {profil.age} ans</h1>
+                <p className="">Hello!I amYijia, you can call me Nancy! How do you feel about me when you first look at me</p>
              </div>
         </div>
     )
