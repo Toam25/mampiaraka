@@ -1,7 +1,8 @@
 import './Home.css'
 import CartProfil from '../CartProfil'
 import  Search from '../Search'
-import data from '../Api'
+import  Messaging from '../Messaging'
+import data, {messages} from '../Api'
 function Home() {
     console.log(data)
     const all_profil = data.map( (datas,index)=>{
@@ -16,6 +17,7 @@ function Home() {
             <div className='d-flex justify-content-center flex-wrap'>
                 {all_profil }
             </div>
+             <Messaging messages={messages}/>
         </div>
         
         </>

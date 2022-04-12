@@ -1,0 +1,51 @@
+.messaging {
+    position: fixed;
+    width: 400px;
+    height: 60vh;
+    bottom: 1px;
+    right: 10px;
+    background: white;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #80808091;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+  }
+.action{
+    background-color: green;
+  }
+  .text_message {
+    margin: 20px 0px;
+    width: 100%;
+    display: flex;
+  
+  }
+  .my_texto {
+    justify-content: right;
+  }
+ .my_texto>div {
+    background: #009f83;
+    border-radius: 19px;
+    padding: 5px;
+    color: white;
+}
+  .text{
+    width: 70%;
+    margin: 0 11px;
+  }
+  .your_texto>div{
+    background: #065547;
+    border-radius: 19px;
+    padding: 5px;
+    color: white;
+  }
+  .user_profil_avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+}
+.header_messaging {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

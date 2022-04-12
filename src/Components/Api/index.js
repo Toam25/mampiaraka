@@ -120,5 +120,32 @@ const data =  [
         citation : "Hello!I amYijia, you can call me Nancy! How do you feel about me when you first look at me"
     }
 ]
+const messages = [
+     {
+        id_user : 1,
+        id : 1,
+        text : "Bonjour a vous",
+        createdAt : "il y deux minute"
+     },
+    {
+        id_user : 2,
+        id :2,
+        text : "Bonjour a vous",
+        createdAt : "il y deux minute"
+        },
+        {
+            id_user : 1,
+            id : 3,
+            text : "Bonjour a vous",
+            createdAt : "il y deux minute"
+         },
+        {
+            id_user : 2,
+            id : 4,
+            text : "Bonjour a vous",
+            createdAt : "il y deux minute"
+        },
+    
+]
 export default data
-export {BASE_URL}
+export {BASE_URL,messages}
