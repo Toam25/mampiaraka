@@ -6,7 +6,8 @@ function Home() {
     console.log(data)
     const all_profil = data.map( (datas,index)=>{
         console.log(datas)
-        return <CartProfil profil={"raera"}/>}  
+        return <CartProfil profil={datas} key={index}/>
+    }  
     )
     return (
         <>
