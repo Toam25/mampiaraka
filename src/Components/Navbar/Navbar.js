@@ -6,8 +6,8 @@ function Navbar() {
                 Rado Nirina
             </div>
             <div className="link">
-                <a>Acceuil</a>
-                <a>Blogs</a>
+                <a href="/">Acceuil</a>
+                <a href="/">Blogs</a>
             </div>
         </div>
     )

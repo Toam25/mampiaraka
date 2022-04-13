@@ -1,5 +1,5 @@
 import Messaging from './Messaging'
-function index ({messages}){
-    return <Messaging messages={messages} />
+function index ({user,messages,setViewMessagingBull}){
+    return <Messaging user={user} messages={messages} setViewMessagingBull={setViewMessagingBull} />
 }
 export default index

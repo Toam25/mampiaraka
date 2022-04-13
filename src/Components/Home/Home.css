@@ -1,0 +1,14 @@
+.cc_message{
+    display: flex;
+    position: fixed;
+    bottom: 4px;
+    right: 0;
+    align-items: flex-end;
+}
+.bubble_messaging > div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: gray;
+    margin: 6px;
+  }

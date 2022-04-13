@@ -1,23 +1,85 @@
 .messaging {
-    position: fixed;
     width: 400px;
     height: 60vh;
-    bottom: 1px;
-    right: 10px;
     background: white;
     border-radius: 5px 5px 0 0;
     border: 1px solid #80808091;
     display: grid;
     grid-template-rows: 50px 1fr 50px;
   }
+  .scroll_detail_research{
+    background-color: red;
+  }
+  .contantMessage{
+    overflow: auto;
+    height: 200px;
+  }
 .action{
-    background-color: green;
+    background-color: transparent;
   }
   .text_message {
     margin: 20px 0px;
     width: 100%;
     display: flex;
   
+  }
+  .close_messaging{
+      font-size: 24px;
+      color: var(--color-gray);
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      transition: 200ms;
+      cursor: pointer;
+  }
+  .text_input_messaging {
+    width: 97%;
+    border-radius: 13px;
+    border: none;
+    height: 38px;
+    margin: 6px;
+    padding-right: 50px;
+    padding-left: 8px;
+    border: 1px solid var(--color-gray);
+}
+  .close_messaging:hover{
+    background-color: var(--color-gray);
+    color: white;
+}
+.text_messaging_to_send {
+  position: relative;
+}
+.button_send_message{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: transparent;
+}
+.text_messaging_to_send {
+    position: relative;
+}
+  .name_user_messaging{
+    color: var(--color-gray);
+    font-weight: 700;
+  }
+  .close_messaging_and_menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+}
+  .profil_messaging_header_image{
+    display: flex;
+    align-items: center;
+  }
+  .profil_messaging_header_image>div{
+      margin-right: 5px;
   }
   .my_texto {
     justify-content: right;

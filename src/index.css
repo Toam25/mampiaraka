@@ -1,3 +1,6 @@
+:root{
+  --color-gray : #555252
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media (max-width: 576px) {
+   .bubble_messaging{
+     display: none;
+   }
+   .messaging{
+     height: 90vh !important;
+     width: 90vw !important;
+   }
 }

@@ -1,8 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
+import Connexion from './Components/Connexion'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -10,7 +12,12 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <Home />
+      <Router>
+         <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/login" element={<Connexion />} />
+         </Routes>
+      </Router>
     </>
   );
 }

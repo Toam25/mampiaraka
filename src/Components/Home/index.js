@@ -1,6 +1,6 @@
 import Home from "./Home";
 
-function Index (){
+function index (){
     return <Home/>
 }
-export default Index
+export default index

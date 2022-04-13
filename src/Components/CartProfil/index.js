@@ -1,5 +1,5 @@
 import CartProfil from './CartProfil'
-function index ({profil}){
-    return <CartProfil profil={profil}/>
+function index ({profil, viewMessaging}){
+    return <CartProfil profil={profil} viewMessaging={viewMessaging}/>
 }
 export default index
