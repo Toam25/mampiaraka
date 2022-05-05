@@ -27,7 +27,7 @@ function Messaging({user,messages,setViewMessagingBull}){
              </div>
              <div className="contantMessage">
              <CustomScroll
-                autoHeightMax={'200px'}
+                autoHeightMax={'500px'}
                 autoHeightMin={0}
                 autoHideDuration={200}
                 autoHideTimeout={1000}

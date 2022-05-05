@@ -140,25 +140,25 @@ const messages = [
      {
         id_user : 1,
         id : 1,
-        text : "Bonjour a vous",
+        text : "Bonjour a vous dfsdf qsdf qsdf qsdf qsdf qdsfqsdfqsdf sdfq dsfdfdfdfdfq qdfq dsfq dqsdf",
         createdAt : "il y deux minute"
      },
     {
         id_user : 2,
         id :2,
-        text : "Bonjour a vous",
+        text : "Bonjour a vous dfsdf qsdf qsdf qsdf qsdf qdsfqsdfqsdf sdfq dsfdfdfdfdfq qdfq dsfq dqsdf",
         createdAt : "il y deux minute"
         },
         {
             id_user : 1,
             id : 3,
-            text : "Bonjour a vous",
+            text : "Bonjour a vous dfsdf qsdf qsdf qsdf qsdf qdsfqsdfqsdf sdfq dsfdfdfdfdfq qdfq dsfq dqsdf",
             createdAt : "il y deux minute"
          },
         {
             id_user : 2,
             id : 4,
-            text : "Bonjour a vous",
+            text : "Bonjour a vous dfsdf qsdf qsdf qsdf qsdf qdsfqsdfqsdf sdfq dsfdfdfdfdfq qdfq dsfq dqsdf",
             createdAt : "il y deux minute"
         },
     

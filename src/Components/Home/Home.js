@@ -37,9 +37,9 @@ function Home() {
     }
     const bubbleMessaging = bubbleMessagingReducer.map((user,index)=>{
         return (
-            <div key={index} > 
-                <button onClick={()=>closeBubbleMessaging(user.id)}><FontAwesomeIcon icon={faTimes} /></button>
-                <div onClick={()=>viewMessaging(user)}>
+            <div key={index} className="cc_bubble"> 
+                <button onClick={()=>closeBubbleMessaging(user.id)} className="close_bubble_message"><FontAwesomeIcon icon={faTimes} /></button>
+                <div onClick={()=>viewMessaging(user)}  style={{backgroundImage: "url("+user.avatar+")"}} className="image_profil_bubble">
                       {user.name}
                 </div>
             </div>
