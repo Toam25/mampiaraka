@@ -12,7 +12,7 @@ function Messaging({user,messages,setViewMessagingBull}){
                  <div className="profil_messaging_header_image">
                     <div className="user_profil_avatar" style={{backgroundImage: "url("+avatar+")"}}>
                     </div>
-                     <span className="name_user_messaging">{user.name}, {user.age}</span>
+                     <span className="name_user_messaging">{user.name}, {user.age} ans</span>
                  </div>
                 <div className="close_messaging_and_menu">
                     {/* <div>

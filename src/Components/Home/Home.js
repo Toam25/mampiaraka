@@ -5,7 +5,7 @@ import  Messaging from '../Messaging'
 import data, {messages} from '../Api'
 import { useState,useEffect} from 'react'
 import Connexion from "../Connexion"
-import {useNavigate} from "react-router-dom"
+import {useNavigate, Link} from "react-router-dom"
 import {useSelector, useDispatch} from "react-redux"
 import {addBubbleMessaging, removeBubbleMessaging} from '../../services/redux/actions/bubbleMessagingAction'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,8 +28,8 @@ function Home() {
         setUser(user)
         setViewMessagingBull(true)
     }
-    const all_profil = data.map( (datas,index)=>{
-        return <CartProfil profil={datas} key={index} viewMessaging={viewMessaging}/>
+    const all_profil = data.map( (data,index)=>{
+        return <CartProfil profil={data}  viewMessaging={viewMessaging}/>
     }  
     )
     const closeBubbleMessaging=(id)=>{
