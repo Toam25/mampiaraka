@@ -6,19 +6,21 @@ function CartProfil ({profil, viewMessaging}) {
     return (
         <div className="cart_profil">
             <div className="image_cart_profil" style={{backgroundImage: "url("+femme+")"}} >
-                    {/* <img src={femme} /> */}
-                    <div className="heart_for_you">
-                         <img src={heart} alt=""/>
-                    </div>
-            </div>
-            
-             <div className="detail_for_me_cart_profil">
-                
-                 
                  <span className="valable_person actif"></span>
-                <h1 className="h1_cart_profil">{profil.name}, {profil.age} ans</h1>
-                <p className="">{profil.citation}</p>
-                <div onClick={()=>viewMessaging(profil)}>Messages</div>
+            </div>
+             <div className="detail_for_me_cart_profil">
+                <p className="h1_cart_profil">{profil.age} ans</p>
+                <p className="name_cart_profil">{profil.name}</p>
+                <div className="cc_action_button">
+                    <div className="action_button">
+                         <div className="message" onClick={()=>viewMessaging(profil)}>
+                                M
+                         </div>
+                         <div className="likes">
+                             L
+                         </div>
+                    </div>
+                </div>
              </div>
         </div>
     )

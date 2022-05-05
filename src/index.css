@@ -1,8 +1,10 @@
 :root{
-  --color-gray : #555252
+  --color-gray : #555252;
+  --background-color : #eaeaea75 ;
 }
 body {
   margin: 0;
+  background-color:var(--background-color) !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

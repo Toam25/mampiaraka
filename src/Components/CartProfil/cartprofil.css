@@ -31,7 +31,7 @@
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin: 7px;
+    margin: 20px;
     background: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,11 +55,45 @@
     height: 40px;
   }
   .detail_for_me_cart_profil {
-    padding: 0px 6px 6px 6px;
+    padding: 17px 6px 6px 6px;
+    position: relative;
   }
   .h1_cart_profil{
         margin: 0;
         font-size: 16px;
+  }
+  .action_button >div {
+    width: 35px;
+    height: 35px;
+    color: white;
+    border-radius: 50%;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rebeccapurple;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .cc_action_button {
+    position: absolute;
+    width: 100%;
+    top: -17px;
+    right: 0;
+  }
+  .name_cart_profil{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .h1_cart_profil{
+    color: var(--color-gray);
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .action_button {
+    display: flex;
+    justify-content: center;
   }
   .few_detail_for_me{
         margin: 0;
