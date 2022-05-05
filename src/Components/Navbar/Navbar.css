@@ -7,13 +7,17 @@
   .link{
     display: flex;
   }
-  .link>div{
+  .link>div , .link_nav{
     margin: 0 10px;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
     cursor: pointer;
     transition: 200ms;
+  }
+  .link_nav{
+    text-decoration: none;
+color: var(--color);
   }
   .active{
     background-color: var(--background-color);

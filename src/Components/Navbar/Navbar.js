@@ -2,6 +2,7 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react";
 import Notifications from "../Notifications";
+import { Link } from "react-router-dom";
 import Messages from "../Messages";
 import "./Navbar.css"
 function Navbar() {
@@ -28,7 +29,7 @@ function Navbar() {
                     Rado Nirina
                 </div>
                 <div className="link">
-                    <div className="active" id="home">Accueil</div>
+                    <Link to="/"className="link_nav active" id="home">Accueil</Link>
                     <div id="nav_messages" onClick={()=>openSideBar('Messages')}>
                         Messages
                         <span className="nbr_notif">3</span>

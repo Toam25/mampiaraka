@@ -2,6 +2,8 @@ import "./cartprofil.css"
 import heart from '../../Images/heart.svg'
 import femme from '../../Images/femee.webp'
 import { BASE_URL } from "../Api"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons"
 function CartProfil ({profil, viewMessaging}) {
     return (
         <div className="cart_profil">
@@ -14,10 +16,10 @@ function CartProfil ({profil, viewMessaging}) {
                 <div className="cc_action_button">
                     <div className="action_button">
                          <div className="message" onClick={()=>viewMessaging(profil)}>
-                                M
+                                 <FontAwesomeIcon icon={faEnvelope}/>
                          </div>
                          <div className="likes">
-                             L
+                                 <FontAwesomeIcon icon={faHeart}/>
                          </div>
                     </div>
                 </div>
